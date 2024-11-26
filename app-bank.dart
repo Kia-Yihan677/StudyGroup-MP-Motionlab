@@ -16,9 +16,7 @@ void main() {
     }
 
     stdout.writeln('୨──Buat pin ATM anda-──୧');
-
     int? digit = int.tryParse(stdin.readLineSync()!);
-
     if (digit == null) {
       stdout.writeln('Pin tidak boleh kosong !');
       continue;
