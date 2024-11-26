@@ -346,3 +346,19 @@ contoh
 -> Penulisan singkat untuk fungsi yang hanya memiliki satu pernyataan. Fungsi ini menggunakan tanda panah (=>) sebagai pengganti tanda kurung kurawal ({}) dan kata kunci return.
 
 `returnType functionName(parameters) => expression;`
+
+`OOP (Object-Oriented Programming)`
+
+`Object-Oriented Programming (OOP)` adalah paradigma pemrograman yang menggunakan objek dan kelas untuk mendesain aplikasi. Konsep utama OOP di Dart mencakup:
+
+`Kelas (Class)`: Blueprint atau template untuk membuat objek. Sebuah kelas mendefinisikan atribut (variabel) dan metode (fungsi) yang dimiliki objek tersebut.
+
+`Objek (Object)`: Instansi dari sebuah kelas. Objek berisi data dan perilaku yang ditentukan oleh kelas.
+
+`Encapsulation (Pengkapsulan)`: Menyembunyikan data atau implementasi internal dari objek, hanya menyediakan akses melalui metode atau fungsi publik.
+
+`Inheritance (Pewarisan`): Mekanisme di mana kelas dapat mewarisi atribut dan metode dari kelas lain. Dart mendukung pewarisan tunggal, yang berarti sebuah kelas hanya dapat mewarisi satu kelas lainnya.
+
+`Polymorphism (Polimorfisme)`: Kemampuan untuk menggunakan metode dengan nama yang sama di kelas yang berbeda. Polimorfisme memungkinkan objek dari kelas yang berbeda untuk merespon metode yang sama dengan cara yang berbeda.
+
+`Abstraction (Abstraksi)`: Menyembunyikan detail implementasi yang kompleks dan hanya menampilkan fungsionalitas penting dari objek kepada pengguna.
