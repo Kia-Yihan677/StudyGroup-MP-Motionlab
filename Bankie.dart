@@ -16,8 +16,8 @@ void main() {
     }
 
     stdout.writeln('⋆.˚⟡ ࣪ ˖Buat pin ATM anda⋆.˚⟡ ࣪ ˖');
-    int? digit = int.tryParse(stdin.readLineSync()!);
-    if (digit == null) {
+    int? pin = int.tryParse(stdin.readLineSync()!);
+    if (pin == null) {
       stdout.writeln('Pin tidak boleh kosong !');
       continue;
     }
@@ -37,28 +37,34 @@ void main() {
 
       switch (transaksi) {
         case '1':
+          stdout.writeln('Masukkan pin untuk melanjutkan transaksi:');
+          int? inputPin = int.tryParse(stdin.readLineSync()!);
+          if (inputPin != pin) {
+            stdout.writeln('Pin salah ˳ᐟ . Transaksi dibatalkan.');
+            continue;
+          }
           stdout.writeln('Saldo anda Rp $saldo');
           break;
         case '2':
           stdout.writeln('Masukkan pin untuk melanjutkan transaksi:');
-          int? inputDigit = int.tryParse(stdin.readLineSync()!);
-          if (inputDigit != digit) {
+          int? inputPin = int.tryParse(stdin.readLineSync()!);
+          if (inputPin != pin) {
             stdout.writeln('Pin salah ˳ᐟ . Transaksi dibatalkan.');
             continue;
           }
-          print('Masukkan jumlah deposit :');
+          stdout.writeln('Masukkan jumlah deposit :');
           int? depositSaldo = int.tryParse(stdin.readLineSync()!);
           if (depositSaldo != null && depositSaldo > 0) {
             saldo += depositSaldo;
             stdout.writeln('Saldo berhasil ditambahkan, Saldo anda Rp $saldo');
           } else {
-            print('Silakan coba lagi');
+            stdout.writeln('Silakan coba lagi');
           }
           break;
         case '3':
           stdout.writeln('Masukkan pin untuk melanjutkan transaksi:');
-          int? inputDigit = int.tryParse(stdin.readLineSync()!);
-          if (inputDigit != digit) {
+          int? inputPin = int.tryParse(stdin.readLineSync()!);
+          if (inputPin != pin) {
             stdout.writeln('Pin salah ˳ᐟ . Transaksi dibatalkan.');
             continue;
           }
@@ -79,7 +85,8 @@ void main() {
           continue;
       }
 
-      stdout.writeln('Apakah anda ingin melakukan transaksi lain? ˆᵕˆ (y/n)');
+      stdout.writeln(
+          "Transaksi lagi, yuk? Ketik 'y' kalau lanjut, atau huruf apa saja kalau udahan ˆᵕˆ");
       String? lanjutan = stdin.readLineSync();
 
       if (lanjutan?.toLowerCase() != 'y') {
