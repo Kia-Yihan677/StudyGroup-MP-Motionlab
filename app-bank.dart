@@ -31,7 +31,6 @@ void main() {
       print('1. Cek saldo');
       print('2. Deposit saldo');
       print('3. Tarik tunai');
-
       stdout.writeln('');
       stdout.writeln('Silakan pilih transaksi yang ingin dilakukan : ');
       String? transaksi = stdin.readLineSync();
