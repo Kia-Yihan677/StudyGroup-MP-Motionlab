@@ -7,15 +7,15 @@ void main() {
     stdout.writeln('Tekan Enter untuk melanjutkan');
     stdin.readLineSync();
 
-    stdout.writeln('════ Buat akun dulu yuk ! ════');
-    stdout.writeln('୨───Mohon masukkan nama anda : -──୧');
+    stdout.writeln('⋆.˚⟡ ࣪ ˖ Buat akun dulu yuk⋆.˚⟡ ࣪ ˖');
+    stdout.writeln('⋆.˚⟡ ࣪ ˖Mohon masukkan nama anda⋆.˚⟡ ࣪ ˖');
     String? nama = stdin.readLineSync();
     if (nama == null || nama.isEmpty) {
       print('Nama tidak boleh kosong !');
       continue;
     }
 
-    stdout.writeln('୨──Buat pin ATM anda-──୧');
+    stdout.writeln('⋆.˚⟡ ࣪ ˖Buat pin ATM anda⋆.˚⟡ ࣪ ˖');
     int? digit = int.tryParse(stdin.readLineSync()!);
     if (digit == null) {
       stdout.writeln('Pin tidak boleh kosong !');
@@ -43,7 +43,7 @@ void main() {
           stdout.writeln('Masukkan pin untuk melanjutkan transaksi:');
           int? inputDigit = int.tryParse(stdin.readLineSync()!);
           if (inputDigit != digit) {
-            stdout.writeln('Pin salah. Transaksi dibatalkan.');
+            stdout.writeln('Pin salah ˳ᐟ . Transaksi dibatalkan.');
             continue;
           }
           print('Masukkan jumlah deposit :');
@@ -59,7 +59,7 @@ void main() {
           stdout.writeln('Masukkan pin untuk melanjutkan transaksi:');
           int? inputDigit = int.tryParse(stdin.readLineSync()!);
           if (inputDigit != digit) {
-            stdout.writeln('Pin salah. Transaksi dibatalkan.');
+            stdout.writeln('Pin salah ˳ᐟ . Transaksi dibatalkan.');
             continue;
           }
           stdout.writeln('Silakan memasukkan jumlah uang yang diinginkan');
@@ -79,7 +79,7 @@ void main() {
           continue;
       }
 
-      stdout.writeln('Apakah anda ingin melakukan transaksi lain? (y/n)');
+      stdout.writeln('Apakah anda ingin melakukan transaksi lain? ˆᵕˆ (y/n)');
       String? lanjutan = stdin.readLineSync();
 
       if (lanjutan?.toLowerCase() != 'y') {
