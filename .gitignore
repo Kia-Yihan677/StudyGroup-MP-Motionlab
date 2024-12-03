@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Miscellaneous
 *.class
 *.log
@@ -41,3 +42,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+=======
+.vscode/
+>>>>>>> c4d6d00b57b7ef5ead3112b7b8f887cc0f7e6bfd
