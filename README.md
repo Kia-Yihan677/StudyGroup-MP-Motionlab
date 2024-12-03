@@ -37,7 +37,7 @@ Misalnya, pada bagian bottomNavigationBar, kita menggunakan Container untuk memb
 16. Custom Button or Action (Icon Buttons)
     Pada bagian bottomNavigationBar, ikon-ikon seperti Icons.home, Icons.wallet_travel_outlined, dan lainnya digunakan untuk memberikan navigasi ke fitur berbeda dalam aplikasi. Ikon-ikon ini dapat diklik, dan sering digunakan untuk tindakan utama dalam aplikasi.
 17. Text.rich untuk Teks yang Berbeda Gaya
-    Text.rich memberikan fleksibilitas dalam penataan teks dengan dua gaya berbeda dalam satu teks. Ini memberikan kebebasan untuk mendesain teks yang lebih menarik dan dinamis, seperti yang dilakukan pada bagian teks "Our way of loving" dan "you back".
+    Text.rich memberikan fleksibilitas dalam penataan teks dengan dua gaya berbeda dalam satu teks.
 18. Font dan Size yang Konsisten
     Pada banyak bagian, TextStyle digunakan untuk menentukan ukuran font, warna font, dan ketebalan font. Konsistensi penggunaan ukuran dan jenis font sangat penting dalam slicing UI agar antarmuka pengguna tampak profesional dan mudah dibaca.
 19. Respon terhadap Ukuran Layar
@@ -45,4 +45,4 @@ Misalnya, pada bagian bottomNavigationBar, kita menggunakan Container untuk memb
 20. Penyusunan Elemen Secara Horizontal dan Vertikal
     Row dan Column adalah widget yang digunakan untuk menyusun elemen UI secara horizontal dan vertikal. Dalam slicing UI, kamu harus memahami kapan menggunakan Row untuk penataan horizontal dan Column untuk penataan vertikal. Ini memungkinkan desain yang lebih terstruktur dan rapi.
 21. Penggunaan BoxDecoration untuk Tampilan Estetis
-    Pada bagian \_buildBubble, BoxDecoration digunakan untuk memberikan gaya pada wadah elemen, seperti border radius (untuk membuat sudut melengkung) dan warna latar belakang. Ini digunakan untuk menambah elemen desain yang lebih estetis dan modern.
+    Pada bagian \_buildBubble, BoxDecoration digunakan untuk memberikan gaya pada wadah elemen, seperti border radius (untuk membuat sudut melengkung) dan warna latar belakang. Ini digunakan untuk menambah elemen desain yang lebih estetis dan modern. :)
