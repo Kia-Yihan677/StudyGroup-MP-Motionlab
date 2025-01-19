@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
-import 'package:flutter_application_1/pages/widgets/custom_text_field.dart';
+import 'package:flutter_application_2/widgets/custom_text_field.dart';
 import 'package:get/get.dart';
 
 class RegisterPage extends StatelessWidget {

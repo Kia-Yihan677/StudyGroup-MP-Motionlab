@@ -153,9 +153,8 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Icon(Icons.home, color: Colors.white, size: 30),
-            Icon(Icons.wallet_travel_outlined, color: Colors.white, size: 30),
             Icon(Icons.favorite_border, color: Colors.white, size: 30),
-            Icon(Icons.notifications_outlined, color: Colors.white, size: 30),
+            Icon(Icons.person_2_outlined, color: Colors.white, size: 30),
           ],
         ),
       ),
