@@ -4,14 +4,14 @@ import 'package:flutter_application_2/models/product.dart';
 
 class CartItemWidget extends StatelessWidget {
   final Product product;
-  final RxInt quantity; // Tambahkan parameter ini
+  final RxInt quantity; 
   final Function() onIncrement;
   final Function() onDecrement;
 
   const CartItemWidget({
     super.key,
     required this.product,
-    required this.quantity, // Observabel
+    required this.quantity, 
     required this.onIncrement,
     required this.onDecrement,
   });
